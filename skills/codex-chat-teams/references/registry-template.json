@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "group_slug": null,
+  "status": "configuring",
+  "objective": null,
+  "acceptance_criteria": [],
+  "constraints": [],
+  "model_policy": {},
+  "updated_at": null,
+  "registry_writer": "A",
+  "members": {
+    "A": {
+      "binding": "current_chat",
+      "thread_id": null,
+      "client_thread_id": null,
+      "host_id": null,
+      "title": null,
+      "project_id": null,
+      "workspace": null,
+      "responsibilities": ["user_interface", "registry", "summary"]
+    },
+    "B": {
+      "binding": null,
+      "thread_id": null,
+      "client_thread_id": null,
+      "host_id": null,
+      "title": null,
+      "project_id": null,
+      "workspace": null,
+      "responsibilities": ["dispatch", "dependencies", "acceptance"]
+    }
+  },
+  "workers": [],
+  "authorizations": [],
+  "tasks": [],
+  "goal": {
+    "owner_role": "B",
+    "objective": null,
+    "observed_status": "not_requested",
+    "verified_at": null
+  },
+  "monitor": {
+    "owner_role": "B",
+    "automation_id": null,
+    "kind": "heartbeat",
+    "cadence": null,
+    "observed_status": "not_requested"
+  }
+}

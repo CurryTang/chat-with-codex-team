@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex 多聊天协调组"
+  short_description: "建立和恢复 A/B/C 聊天组，记录授权边界并协调具体任务、证据验收与可选定时检查"
+  default_prompt: "使用 $codex-chat-teams 按具体交付任务建立或恢复协调组，记录实际授权、职责和验收条件。"
