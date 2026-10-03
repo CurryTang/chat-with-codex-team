@@ -4,6 +4,10 @@ A reusable Codex skill for coordinating a recoverable group of chats: **A** rece
 
 This is a skill package, not a standalone program or server. It needs a Codex desktop environment exposing chat-management tools. Goal and heartbeat support are optional and depend on the live tools available in your environment. Local scheduled follow-ups require the computer and application to remain running.
 
+B is the main working conversation; A stays a stable user entry. The current defaults use Luna low for experiments and Sol low for implementation, with Sol xhigh available for genuinely difficult work and no Astra. Routine acknowledgments and duplicate monitoring are avoided. Slow exploratory runs are stopped when early evidence makes them uncompetitive, then investigated with bounded experiments. Code should stay readable and simple, with only necessary tests.
+
+An optional local code-graph MCP, such as [GitNexus](https://github.com/nxpatterns/gitnexus), can support cross-chat symbol and dependency navigation. One owner maintains a shared source-only index; chats exchange concise source links rather than graph dumps. Installing this skill does not install GitNexus, upload code, or enable hooks.
+
 ## Install
 
 The package uses the [official skill format](https://developers.openai.com/plugins/build/skills): `SKILL.md`, supporting references and optional UI metadata.
